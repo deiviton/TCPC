@@ -1,3 +1,16 @@
-.container-login{
-    max-width: 25%;
+.container-login {
+    max-width: 30%;
+}
+
+.input-width {
+    width: 80%;
+}
+
+.input-spacing {
+    line-height: 25px;
+    margin-top: 10px;
+}
+
+.input-spacing__btn {
+    margin-top: 20px;
 }
