@@ -1,17 +1,31 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+	/>
+	<link rel="stylesheet" href="styles.css">
     <title>Document</title>
-</head>
-<body>
-    <div class="container">
-        <div>
-            <h1 class="text-center text-primary">This is the text</h1>
-            <input placeholder="Login" type="text">
+  </head>
+  <body>
+    <div class="container-fluid center-block container-login">
+      <h1 class="text-center text-primary">This is the text</h1>
+      <div class="well ">
+        <div class="row">
+          <input placeholder="Nome de Usuário ou Email" type="text" />
         </div>
+        <div class="row">
+          <input placeholder="Senha" type="text" />
+        </div>
+        <div class="row">
+          <button class="btn btn-default btn-block">Login</button>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
