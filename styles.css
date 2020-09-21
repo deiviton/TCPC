@@ -14,3 +14,25 @@
 .input-spacing__btn {
     margin-top: 20px;
 }
+
+
+.logo{
+    margin: 25px;
+    height: 120px;
+    width: 120px;
+}
+.home-banner{
+    display: flex;
+    flex-direction: row; 
+    max-width: 100%;   
+}
+.nav-itens{
+    width: 50%;
+    height: 120px;    
+}
+.nav-itens__spacing{
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    top: 60px;
+}
