@@ -14,17 +14,41 @@
 .input-spacing__btn {
     margin-top: 20px;
 }
-
-
+.nav-itens-formart{
+    color: #1f2322;
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 4px;
+    padding-left: 3px;
+    padding-right: 3px
+}
+.nav-itens-formart:hover{
+    text-decoration: none;
+    border-bottom:3px solid #847059;
+    color: #1f2322;
+    padding-bottom: 4px;
+    padding-left: 3px;
+    padding-right: 3px    
+}
+.teste2{
+    background-color: rgb(211, 187, 147);
+    height: 500px;
+    width: 100%;
+}
 .logo{
     margin: 25px;
     height: 120px;
     width: 120px;
 }
+.img-border{
+    border: 5px solid #847059;
+    border-radius: 60px;
+}
 .home-banner{
     display: flex;
     flex-direction: row; 
-    max-width: 100%;   
+    max-width: 100%;
+    background-color: #d6bf91;   
 }
 .nav-itens{
     width: 50%;
