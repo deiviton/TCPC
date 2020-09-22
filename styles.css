@@ -2,6 +2,10 @@
     max-width: 30%;
 }
 
+.bnt-format{
+    background-color: #847059;
+}
+
 .input-width {
     width: 80%;
 }
@@ -43,6 +47,15 @@
 .img-border{
     border: 5px solid #847059;
     border-radius: 60px;
+}
+
+.img-border-index{
+    border: 5px solid #847059;
+    border-radius: 170px;
+}
+
+.well{
+    background-color: #d6bf91;
 }
 .home-banner{
     display: flex;
