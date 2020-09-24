@@ -1,0 +1,38 @@
+.mainbg{
+    background-color: rgb(251, 227, 187);
+    height: 500px;
+    width: 100%;
+    text-align: center;
+}
+.textinput{    
+    width: 270px;
+    margin: 10px;
+
+}
+.inputcontainer{
+    margin-top: 50px;
+    display: inline-flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    place-content: space-around;
+    width: 80%;    
+}
+.text-box{
+    width: 255px;
+}
+.btnCadastrar{
+    height: 35px;
+    width: 148px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #847059;
+    border: 1px solid rgb(116, 68, 64);
+    border-radius: 4px;
+    color: white;
+}
+.btnCadastrar:hover, .btnCadastrar:focus, .btnCadastrar:active, .btnCadastrar:focus-within, .btnCadastrar:visited{
+    background-color: rgb(36, 139, 115);
+    border-color: rgb(116, 68, 64);
+    color: white;
+}
