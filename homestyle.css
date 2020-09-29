@@ -59,7 +59,7 @@
     height: 500px;
     width: 80%;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 10px;    
 }
 
 .inputcontainer{
@@ -77,6 +77,14 @@
     margin: 10px;
 }
 
+.bg-img{
+    position: absolute;
+    left: 27%;
+    right: 27%;
+    width: 45%;
+    top: 10px;
+}
+
 .text-box{
     width: 255px;
 }
@@ -88,7 +96,7 @@
     background-color: #847059;
     border: 1px solid rgb(116, 68, 64);
     border-radius: 4px;
-    color: white;
+    color: white;    
 }
 
 .btnCadastrar:hover, .btnCadastrar:focus, .btnCadastrar:active, .btnCadastrar:focus-within, .btnCadastrar:visited{
