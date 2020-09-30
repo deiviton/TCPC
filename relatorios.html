@@ -1,22 +1,19 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="homestyle.css" />
-    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/itenstyle.css" />
+    <title>Document</title>
 </head>
-
 <body>
     <div class="container-fluid home-banner">
         <img src="img\Logo - Duck Coffee.png" alt="" class="img-responsive logo img-border">
         <div class="nav-itens center-block">
             <nav class="row text-center">
                 <a class="nav-itens__spacing nav-itens-formart">Home</a>
-                <a class="nav-itens__spacing nav-itens-formart">Cadastrar</a>
+                <a class="nav-itens__spacing nav-itens-formart">Itens</a>
                 <a class="nav-itens__spacing nav-itens-formart">Relatórios</a>
                 <a class="nav-itens__spacing nav-itens-formart">Documentos</a>
             </nav>
@@ -24,25 +21,28 @@
     </div>
     <div class="format-border">
         <div class="mainbg container-fluid">            
+
+            <div class="text-primary"><h4>Relatório de entrada e saída</h1></div>
+
             <img src= "img\DuckFundo2.png" alt="" class="bg-img">
             <div class="inputcontainer">                
-                <div class="textinput"><input type="text" placeholder="CODIGO DE BARRAS" class="text-box"></div>
-                <div class="textinput"><input type="text" placeholder="DESCRICAO RESUMIDA" class="text-box"></div>
-                <div class="textinput"><input type="text" placeholder="DESCRICAO DETALHADA" class="text-box"></div>
-                <div class="textinput"><input type="text" placeholder="VALOR UNITÁRIO" class="text-box"></div>
-                <div class="textinput"><input type="text" placeholder="QUANTIDADE DE ENTRADA" class="text-box"></div>
-                <div class="textinput"><input type="text" placeholder="DATA DE ENTRADA" class="text-box"></div>
+                <div class="textinput"><input type="date" class="text-box"></div>
+                <div class="textinput"><input type="date" class="text-box"></div>
             </div>
+
             <div>
-                <button class="btnCadastrar btn center-block btn-block bnt-format">Gravar</button>
+                <button class="btnCadastrar btn center-block btn-block bnt-format">Listar</button>
             </div>
+            
         </div>
-    </div>
+
     <div class="footer container-fluid">
         <img src="img\PequenoDuck.png" alt="" class="footer-logo">
         <p class="footer-text text-center">Desenvolvido por:</p>
         <p class="subtitle text-center">Duck Labs</p>
     </div>
+    <!-- Relatório de entrada e saída;
+    Relatório de Produtos com baixo Giro;
+    Relatório de valores do Estoque. -->
 </body>
-
 </html>
