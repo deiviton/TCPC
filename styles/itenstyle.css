@@ -59,7 +59,7 @@
     height: 500px;
     width: 80%;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 10px;    
 }
 
 .inputcontainer{
@@ -77,10 +77,22 @@
     margin: 10px;
 }
 
+.bg-img{
+    position: fixed;
+    left: 27%;
+    right: 27%;
+    width: 45%;
+    top: 24%;
+}
+
 .text-box{
     width: 255px;
 }
 .btnCadastrar{
+    position: absolute;
+    /* top: 50%; */
+    left: 50%;
+    transform: translate(-50%,-50%);
     height: 35px;
     width: 148px;
     margin-top: 20px;
@@ -88,7 +100,7 @@
     background-color: #847059;
     border: 1px solid rgb(116, 68, 64);
     border-radius: 4px;
-    color: white;
+    color: white;    
 }
 
 .btnCadastrar:hover, .btnCadastrar:focus, .btnCadastrar:active, .btnCadastrar:focus-within, .btnCadastrar:visited{
